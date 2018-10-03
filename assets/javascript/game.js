@@ -20,7 +20,7 @@ function startGame() {
   };
   //printing the underscores to the screen for the words
 
-  document.getElementById("underScores") = underScores.join(" ");
+  $("underScores").textContent = underScores.join(" ");
 }
 
 function countdown() {
